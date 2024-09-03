@@ -1,0 +1,7 @@
+﻿dotnet ef migrations add inicial
+
+ctrl+shift+b = builda a solução
+
+dotnet ef migrations add (Nome) <-- contextualiza uma nova atualização no banco de dados sem necessitar matar o banco anterior
+dotnet ef database update <-- roda todas as migrations no projeto para poder atualizar o banco.
+
