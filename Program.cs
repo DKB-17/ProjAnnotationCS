@@ -26,4 +26,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// todas as linhas acima ja são executadas para configurar a aplicação
+// abaixo startamos a aplicação
+
 app.Run();
